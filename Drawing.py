@@ -6,4 +6,5 @@
     #print(text)#
 number = int(input("Please Enter your number: "))
 for i in range(number):
+    print(i+1)
     print("*"*(i+1))
