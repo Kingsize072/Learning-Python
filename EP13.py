@@ -2,15 +2,18 @@
 
 #input
 age = int(input("Enter your age: "))
-name = input("Enter your name: ")
 
 # process
 # true
-if age >= 20 :
-    print("You are old enough to drive")
+if age >= 15 :
+    print("Teenager")
+elif age >= 20:
+    print("Adult")
+elif age >= 60:
+    print("Senior")
 # false
 else:
-    print("You are not old enough to drive")
+    print("Child")
 
 #End of program
-print("Thank you for using this program,", name)
+print("Thank you for using this program,")
