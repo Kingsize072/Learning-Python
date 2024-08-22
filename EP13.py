@@ -9,8 +9,8 @@ if age >= 15 :
     print("Teenager")
 elif age >= 20:
     print("Adult")
-elif age >= 60:
-    print("Senior")
+elif age >= 30:
+    print("Middle age")
 # false
 else:
     print("Child")
